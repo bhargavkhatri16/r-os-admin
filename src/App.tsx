@@ -2,7 +2,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { AuthProvider } from './hooks/useAuth';
 import { AppRoutes } from './routing/AppRoutes';
 
-// Main App
+// -- Main App --
 const App = () => {
   return (
     <BrowserRouter>
